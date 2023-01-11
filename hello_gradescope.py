@@ -1,4 +1,4 @@
-# Name:
+# Name: Adrian Gustilo
 # OSU Email:
 # Course: CS261 - Data Structures
 # Assignment:

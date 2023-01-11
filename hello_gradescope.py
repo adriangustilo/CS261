@@ -1,8 +1,8 @@
 # Name: Adrian Gustilo
-# OSU Email:
+# OSU Email:gustiloa@oregonstate.edu
 # Course: CS261 - Data Structures
-# Assignment:
-# Due Date:
+# Assignment: Assignment 0: Introduction and Environment Set-up
+# Due Date: January 18, 2023
 # Description:
 
 

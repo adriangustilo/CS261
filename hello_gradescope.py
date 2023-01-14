@@ -3,7 +3,7 @@
 # Course: CS261 - Data Structures
 # Assignment: Assignment 0: Introduction and Environment Set-up
 # Due Date: January 18, 2023
-# Description:
+# Descriptio
 
 
 def gradescope_test():

@@ -22,7 +22,7 @@ def min_max(arr: StaticArray) -> (int, int):
     minimum_value = array[0]
     maximum_value = array[0]
 
-    for num in range(0, array): #This will go to every num from 1 and goes up to the given parameter
+    for num in range(0, array): #This will go to every num from 0 and goes up to the given parameter
         val = arr[num]
         if val > maximum_value:
             maximum_value = val

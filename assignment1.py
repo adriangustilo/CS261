@@ -231,7 +231,7 @@ def count_sort(arr: StaticArray) -> StaticArray:
     """
 
     count = minimum_maximum(arr)
-    sorted_num = StaticArray(arr.length())
+    new_num = StaticArray(arr.length())
     nums = (count[1] - count[0]) + 1
     vals = StaticArray(nums)
 
@@ -239,14 +239,14 @@ def count_sort(arr: StaticArray) -> StaticArray:
         vals[num] = 0
 
     for num in range(arr.length()):
-        vals[[value] - count[0]] += 1
+        vals[arr[num] - count[0]] += 1
 
     sum = 0
     for num in range(vals.length()):
         for val in range(sum, sum + vals[num]):
-            nums[nums.length() - 1 - val] = num + count[0]
+            new_num[new_num.length() - 1 - val] = num + count[0]
             sum = sum + 1
-    return sorted_num
+    return new_num
 
 
 # ------------------- PROBLEM 10 - SORTED SQUARES ---------------------------

@@ -180,7 +180,7 @@ def find_mode(arr: StaticArray) -> (int, int):
         if val == mode:
             ints = ints + 1
 
-        if val not in mode:
+        if val != mode:
             value = nums
             nums = val
             if value == nums:
@@ -235,7 +235,7 @@ def count_sort(arr: StaticArray) -> StaticArray:
 
     for num in range(vals.length()):
         value = vals[num]
-        0 = value
+        value == 0
 
     for num in range(arr.length()):
         vals[[value] - count[0]] += 1
@@ -461,4 +461,3 @@ if __name__ == "__main__":
     print(f'Started sorting large array of {array_size} elements')
     result = sorted_squares(arr)
     print(f'Finished sorting large array of {array_size} elements')
-f

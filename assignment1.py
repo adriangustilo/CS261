@@ -263,7 +263,7 @@ def sorted_squares(arr: StaticArray) -> StaticArray:
     negval = 0
     posval = arr.length() - 1
 
-    for num in range(array.length() - 2):
+    for num in range(array.length() - 1, -1, -1):
         if abs(arr[negval]) >= abs(arr[posval]):
             array[num] = arr[negval] ** 2
             negval = negval + 1

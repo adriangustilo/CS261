@@ -139,7 +139,7 @@ def is_sorted(arr: StaticArray) -> int:
     the array is sorted
     """
 
-    array = arc.length()
+    array = arr.length()
     pos_val = 0
     neg_val = 0
 

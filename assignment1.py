@@ -27,7 +27,8 @@ def min_max(arr: StaticArray) -> (int, int):
             maximum_value = val
         if val < minimum_value:
             minimum_value = val
-    return minimum_value, maximum_value
+
+    return (minimum_value, maximum_value)
 
 
 

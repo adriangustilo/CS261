@@ -161,7 +161,7 @@ def is_sorted(arr: StaticArray) -> int:
     if pos_val == array - 1:
         return -1
 
-    return 0
+    return 1
 
 # ------------------- PROBLEM 7 - FIND_MODE -----------------------------------
 

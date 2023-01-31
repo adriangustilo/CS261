@@ -241,11 +241,11 @@ def count_sort(arr: StaticArray) -> StaticArray:
     for num in range(arr.length()):
         vals[arr[num] - count[0]] += 1
 
-    sum = 0
+
     for num in range(vals.length()):
-        for val in range(sum, sum + vals[num]):
+        for val in range(num, num + vals[num]):
             nums[nums.length() - 1 - val] = num + count[0]
-            sum = sum + 1
+            num = num + 1
     return sorted_num
 
 

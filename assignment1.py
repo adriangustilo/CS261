@@ -236,8 +236,7 @@ def count_sort(arr: StaticArray) -> StaticArray:
     vals = StaticArray(nums)
 
     for num in range(vals.length()):
-        value = vals[num]
-        value == 0
+        vals[num] = 0
 
     for num in range(arr.length()):
         vals[[value] - count[0]] += 1
